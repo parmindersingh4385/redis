@@ -13,7 +13,7 @@ app.get('/message', function(req, res){
 });
 
 app.get('/redis', function(req, res){
-	res.send({ 'message': 'Redis data fetched successfully'});
+	res.send({ 'message': 'Redis data fetched successfully........123'});
 });
 
 app.listen(port, function(req, res){
