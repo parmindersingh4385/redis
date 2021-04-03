@@ -1,7 +1,7 @@
 var express = require('express'),
 	app = express();
 
-var port = process.env.PORT || 80;  
+var port = process.env.PORT || 9092;  
 
 
 app.get('/', function(req, res){
