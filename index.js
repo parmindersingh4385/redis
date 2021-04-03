@@ -12,6 +12,10 @@ app.get('/message', function(req, res){
 	res.send({ 'message': 'Hello world'});
 });
 
+app.get('/redis', function(req, res){
+	res.send({ 'message': 'Redis data fetched successfully'});
+});
+
 app.listen(port, function(req, res){
 	console.log('App is running on port:-' + port);
 });
