@@ -5,11 +5,11 @@ var port = process.env.PORT || 9090;
 
 
 app.get('/', function(req, res){
-	res.send('Redis api is working fine.....123');
+	res.send('Redis api is working fine.....xyz');
 });
 
 app.get('/message', function(req, res){
-	res.send({ 'message': 'Hello world ............123'});
+	res.send({ 'message': 'Hello world ............xyz'});
 });
 
 app.get('/redis', function(req, res){
